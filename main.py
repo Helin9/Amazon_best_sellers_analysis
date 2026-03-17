@@ -41,7 +41,7 @@ df_unique_books=df.sort_values("Reviews",ascending=False).drop_duplicates(subset
 df_sorted = df_unique_books.sort_values(by=["Rating","Reviews"], ascending=[False,False])
 df_sorted = df_sorted.drop_duplicates(subset=["Rating"])
 
-# 4. picking the columns we want to see 
+# 3. picking the columns we want to see 
 most_popular_books= df_sorted[["Rating","Title","Author","Reviews"]]
 print(most_popular_books)
 
