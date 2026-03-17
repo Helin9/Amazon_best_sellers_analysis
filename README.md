@@ -33,11 +33,11 @@ This project was built following the [Codédex](https://www.codedex.io/) "Analyz
 
 ## 📊 Results
 
-After running the script, two files will be generated:
+After running the script, 3 files will be generated:
 
 - **top_authors.csv:** A list of the top 10 most frequent authors.
 - **avg_rating_by_genre.csv:** The average user ratings categorized by genre.
 - **most_popular_book:** I performed an additional analysis to find the "crowd favorite" for every rating level (from 4.9 down to 3.3).
   
-- *Note: Interestingly, the most reviewed book overall (87k+ reviews) has a 4.8 rating, proving that as a book's popularity explodes, maintaining a perfect 4.9 becomes much harder.*
+*Note: Interestingly, the most reviewed book overall (87k+ reviews) has a 4.8 rating, proving that as a book's popularity explodes, maintaining a perfect 4.9 becomes much harder.*
   
